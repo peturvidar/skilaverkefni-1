@@ -1,0 +1,205 @@
+:root {
+  --color:#ffffff;
+  font-family:'Playfair Display';
+  --default-padding: 10px;
+  --default-margin: 5px;
+}
+.--btn-bg {
+  background: linear-gradient(to bottom, #0466c8 0%, #669999 100%);
+}
+.--p-12 {
+  font-size: 14px;
+}
+.--m-bottom {
+ margin-bottom: 20px;
+}
+.--m-top {
+  margin-top: 20px;
+}
+.--h1-tab {
+  font-size: 35px;
+}
+.--m-bt {
+margin-top: 40px;
+margin-bottom: 40px;
+}
+.navbar-fnt {
+  color: #FFFFFF;
+}
+.--m-l {
+  margin-left: 38px;
+}
+.--m-l-15 {
+  margin-left: 1000px;
+}
+.--m-15 {
+  margin: 15px;
+}
+.--card-p {
+  font-size: 18px;
+}
+.--h1-footer {
+  font-size: 25px;
+}
+.--h2-22 {
+
+  font-size: 22px;
+}
+p {
+  font-size:25px;
+  font-family:arial;
+}
+.--p-bottom {
+  padding-bottom: 15px;
+}
+.--def-p {
+  padding: var(--default-padding);
+}
+
+.--def-m {
+  margin: var(--default-margin);
+}
+.--navbar-background {
+background-color: #666666;
+}
+
+.--white-font {
+  color: var(--color);
+  font-size: 20px;
+}
+ * {
+    font-size: 100%;
+    font-family: 'Playfair Display';  
+   }
+.--font {
+    color: #ffffff;
+    font-size: 25px;
+    padding: 50px;
+}
+
+.--f-18 {
+  font-size: 18px;
+}
+.--font-btn {
+  color: #000000;
+  font-size: 25px;
+}
+.--button-m-1 {
+  margin-left: 40px;
+  margin-top: 25px;
+  color:#3f4238
+}
+.--button-m-2 {
+  margin-left: 0px;
+  margin-top: 0px;
+  color: #ffffff;
+}
+
+.--font-btn-link {
+  color: #000000;
+  font-size: 25px;
+}
+
+.--m-15 {
+  margin-top: 15px;
+}
+
+.--left-40p {
+  text-align: left;
+  padding-left:40px
+}
+
+.--left-80p {
+  text-align: left;
+  padding-left:80px
+}
+
+h1 {
+  font-size: 35px;
+}
+h2 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 18px;
+}
+container {
+  height: auto;
+}
+footer {
+background-color:#666666;
+color:#ffffff;
+}
+
+
+.--text-align-r {
+  text-align: right;
+}
+.--text-align-l {
+  text-align: left;
+}
+.--text-align-c {
+  text-align: center;
+}
+
+.card {
+  padding: 25px;
+  margin: 100px;
+}
+.--container-bg {
+  background-color: #FFE8D6;
+}
+
+body {
+  background: linear-gradient(to bottom left, #0466c8 0%, #ffe8d6 100%);
+}
+
+@include media-breakpoint-between(xs,sm){
+  .--btn {
+      @include button-size($input-btn-padding-y-sm, $input-btn-padding-x-sm, $font-size-sm, $line-height-sm, $btn-border-radius-sm);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.red {
+    background-color: red;
+  }
+  .gray {
+    background-color: gray;
+  }
+  .lightblue {
+    background-color: rgb(77, 191, 230);
+  }
+  .yellow {
+    background-color: yellow;
+  }
+  .green {
+    background-color: rgb(19, 161, 19);
+  }
+  .lightgreen {
+    background-color: lightgreen;
+  }
+  .darkblue {
+    background-color: rgb(45, 45, 235);
+  }
+  .purple {
+    background-color: rgb(151, 36, 151);
+  }
+  .darkpurple {
+    background-color: rgb(117, 2, 117);
+  }
+  .fadedred {
+    background-color: rgb(190, 74, 74);
+  }
+
